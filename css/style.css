@@ -2,16 +2,24 @@ body{
     text-align: center;
     font-family: "Arial";
 }
-
-
-#container{
+.container{
     width: 70%;
-    padding: 1em;
     text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
-    background-color: aquamarine;
+    border: 5px solid #7e7c7c;
 }
-#container h1{
-    font-size: 20px;
+.titulo{
+    background:blueviolet;
+    box-shadow: 0px 0px 10px #000000;
+}
+.container h2{
+    margin: 0;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+    padding: 2rem;
+    text-align: center;
+}
+
+.container p{
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: left;
 }
